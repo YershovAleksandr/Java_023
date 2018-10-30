@@ -9,7 +9,7 @@ public class FirstSample
 {
    public static void main(String[] args)
    {
-      System.out.println("We will not use 'Hello, World!'");
+      System.out.println("We will not use 'Hello, World!' \u2122");
 
       System.out.println("start " + (Character.isJavaIdentifierStart('$')?"1":"0"));
       System.out.println("part " + (Character.isJavaIdentifierPart('$')?"1":"0"));
@@ -17,6 +17,8 @@ public class FirstSample
       int i = 0;
 
       System.out.println(++i);
+
+     // StrictMath
 
    }
 }
