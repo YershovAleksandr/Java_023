@@ -42,6 +42,15 @@
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.7.0</version>
+          <configuration>
+            <excludes>
+              <exclude>**/tmp/*/*.java</exclude>
+              <exclude>**/tmp/*/*/*.java</exclude>
+              <exclude>**/tmp/*/*/*/*.java</exclude>
+              <exclude>**/tmp/*/*/*/*/*.java</exclude>
+              <exclude>**/tmp/*/*/*/*/*/*.java</exclude>
+            </excludes>
+          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
@@ -64,7 +73,7 @@
           <artifactId>exec-maven-plugin</artifactId>
           <version>1.6.0</version>
           <configuration>
-            <mainClass>v1ch02.Welcome.Welcome</mainClass>
+            <mainClass>v1ch03.FirstSample.FirstSample</mainClass>
           </configuration>
         </plugin>
       </plugins>
