@@ -22,6 +22,3 @@ public class FirstSample
 
    }
 }
-//dfgdf c:\ users
-
-
