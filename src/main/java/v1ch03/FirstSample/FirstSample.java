@@ -18,7 +18,7 @@ public class FirstSample
 
       System.out.println(++i);
 
-     // StrictMath
+
 
    }
 }
