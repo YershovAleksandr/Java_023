@@ -17,7 +17,6 @@ public class InputTest
       System.out.print("What is your name? ");
       String name = "2ch";
 
-
       // get second input
       System.out.print("How old are you? ");
       int age = 42;
