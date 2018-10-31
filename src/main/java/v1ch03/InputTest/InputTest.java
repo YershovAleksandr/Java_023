@@ -1,4 +1,5 @@
 package v1ch03.InputTest;
+import java.io.Console;
 import java.util.*;
 
 /**
@@ -14,13 +15,25 @@ public class InputTest
 
       // get first input
       System.out.print("What is your name? ");
-      String name = in.nextLine();
+      String name = "2ch";
+//      String name = in.nextLine();
 
       // get second input
       System.out.print("How old are you? ");
-      int age = in.nextInt();
+      int age = 42;
+//      int age = in.nextInt();
 
       // display output on console
       System.out.println("Hello, " + name + ". Next year, you'll be " + (age + 1));
+
+      Console con = System.console();
+
+      String username = con.readLine("User name : ");
+      char[] passwd = con.readPassword("Password : ");
+
+      String str = new String(passwd);
+
+      System.out.println("Usr : " + username + " Pwd : " + str);
+
    }
 }
