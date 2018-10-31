@@ -20,7 +20,7 @@ public class InputTest
       // get second input
       System.out.print("How old are you? ");
       int age = 42;
-//      int age = in.nextInt();
+
 
       // display output on console
       System.out.println("Hello, " + name + ". Next year, you'll be " + (age + 1));
