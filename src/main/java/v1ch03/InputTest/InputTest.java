@@ -1,3 +1,4 @@
+package v1ch03.InputTest;
 import java.util.*;
 
 /**
