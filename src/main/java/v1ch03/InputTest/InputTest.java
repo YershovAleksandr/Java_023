@@ -21,7 +21,6 @@ public class InputTest
       System.out.print("How old are you? ");
       int age = 42;
 
-
       // display output on console
       System.out.println("Hello, " + name + ". Next year, you'll be " + (age + 1));
 
