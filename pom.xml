@@ -73,7 +73,7 @@
           <artifactId>exec-maven-plugin</artifactId>
           <version>1.6.0</version>
           <configuration>
-            <mainClass>v1ch03.FirstSample.FirstSample</mainClass>
+            <mainClass>v1ch03.InputTest.InputTest</mainClass>
           </configuration>
         </plugin>
       </plugins>
