@@ -1,3 +1,5 @@
+package v1ch04.ConstructorTest;
+
 import java.util.*;
 
 /**
