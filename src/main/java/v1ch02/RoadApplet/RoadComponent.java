@@ -1,3 +1,5 @@
+package v1ch02.RoadApplet;
+
 import java.awt.*;
 import java.awt.image.*;
 import javax.swing.*;
